@@ -1,0 +1,101 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mataya</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
+</head>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mataya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../../img/logo.png" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./../inicio/inicio.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./agendamento.html" class="nav-link">Agendamento</a></li>
+                    <li class="nav-item"><a href="./../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="./../login/login.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../../img/close_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Agendamento</a></li>
+                <li class="nav-item"><a href="./../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="./login.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="rooms">
+            <div class="room">
+                <img src="https://cdn.leroymerlin.com.br/contents/quarto_de_casal_com_revestimento_de_madeira_na_parede_0908_original.jpg" alt="Quarto de Casal">
+                <div class="room-details">
+                    <h2>Quarto de Casal</h2>
+                    <p class="description">Um quarto elegante e confortável, ideal para casais que buscam uma estadia relaxante.</p>
+                    <p class="price">R$ 250,00 por noite</p>
+                    <button class="botao-agendar">AGENDAR</button>
+                </div>
+            </div>
+
+            <div class="room">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlG8tCmO2qyHioGubtfYVykZpSAhP14swI9g&s" alt="Quarto Familiar">
+                <div class="room-details">
+                    <h2>Quarto Familiar</h2>
+                    <p class="description">Espaçoso e confortável, ideal para famílias. Conta com duas camas de casal e área de estar.</p>
+                    <p class="price">R$ 350,00 por noite</p>
+                    <button class="botao-agendar">AGENDAR</button>
+                </div>
+            </div>
+
+            <div class="room">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f7PaUK3C_aFO6zdgb3vucUlR7W6EWJGcUA&s" alt="Suíte Luxo">
+                <div class="room-details">
+                    <h2>Suíte Luxo</h2>
+                    <p class="description">Uma suíte de alto padrão com vista para o mar, jacuzzi e uma decoração sofisticada.</p>
+                    <p class="price">R$ 600,00 por noite</p>
+                    <button class="botao-agendar">AGENDAR</button>
+                </div>
+            </div>
+
+            <div class="room">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz915YQyZ8VPYt3FUdGh_na2qct9dsOlDUyg&s" alt="Quarto Executivo">
+                <div class="room-details">
+                    <h2>Quarto Executivo</h2>
+                    <p class="description">Perfeito para viajantes de negócios. Equipado com uma cama queen-size,</p>
+                    <p class="price">R$ 400,00 por noite</p>
+                    <button class="botao-agendar">AGENDAR</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
