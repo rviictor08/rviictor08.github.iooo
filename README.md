@@ -42,7 +42,7 @@ Este projeto é um esforço de grupo para o aprendizado de HTML e CSS. Se você 
 
 ## Licença
 
-Este projeto é destinado a fins educacionais e de prática. Está disponível para uso e modificação conforme necessário para o aprendizado contínuo de HTML e CSS.
+Este projeto é destinado a fins educacionais e de prática. Está disponível para uso e modificação conforme necessário para o aprendizado contínuo de HTML e CSS..
 
 ## Contato
 
