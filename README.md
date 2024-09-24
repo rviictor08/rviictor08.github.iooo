@@ -49,11 +49,11 @@ Este projeto é destinado a fins educacionais e de prática. Está disponível p
 Se você tiver dúvidas ou precisar de mais informações sobre o projeto, entre em contato com:
 
 INTEGRANTES: 
-RAUL VICTOR 
+Raul Victor
 Daniel Catozzi
 Otávio Cabral
-raphael silva
-luis felipe 
+Rafael silva
+Luis felipe 
 
 
 - Nome: Equipe Ciencia CHC
