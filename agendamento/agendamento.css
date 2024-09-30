@@ -27,6 +27,7 @@ main {
 header {
     background-color: #0026ff;
     width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha de separação */
 }
 
 .nav-bar {
@@ -101,12 +102,6 @@ header {
         display: block;
     }
 
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
@@ -135,10 +130,9 @@ header {
 
 /* Room Section Styles */
 .rooms {
-    display: flex;
-    /* flex-wrap: wrap; */
-    gap: 1rem;
-    justify-content: center;
+    display: grid; /* Altera de flex para grid */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adiciona um grid responsivo */
+    gap: 2rem; /* Aumenta o espaçamento entre os quartos */
 }
 
 .room {
@@ -146,7 +140,6 @@ header {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
 }
 
 .room img {
@@ -179,6 +172,7 @@ header {
 }
 
 .botao-agendar {
+    text-decoration: none; /* Remove o sublinhado */
     display: inline-block; /* Permite a centralização */
     padding: 0.75rem 1.5rem;
     border: none;
@@ -187,6 +181,11 @@ header {
     color: #fff;
     cursor: pointer;
     margin-top: 1rem; /* Adiciona espaço acima do botão */
+}
+
+.botao-agendar:hover {
+    background-color: #016d7a; /* Efeito hover */
+    transition: background-color 0.3s; /* Transição suave */
 }
 
 @media (max-width: 768px) {
@@ -199,51 +198,4 @@ header {
         width: 90%;
         max-width: 500px;
     }
-}
-
-/* Form Container Styles */
-.form-container {
-    max-width: 600px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background: #e0f7fa;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-container h4 {
-    margin-bottom: 1rem;
-    color: #4b4b4b;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
-}
-
-.form-group input {
-    width: 95%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.form-group button {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 34px;
-    background-color: #0187a7;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.form-group button:hover {
-    background-color: #016f8b;
 }

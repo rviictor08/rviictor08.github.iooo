@@ -8,9 +8,21 @@
 }
 
 body {
-    background: linear-gradient(#ffffff, #ffffff);
-    background-size: 1800% 1800%;
-    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-message {
+    margin-left: 270px;
+}
+
+.logogoogle {
+    max-width: 25px; /* Tamanho reduzido */
+    height: 25px;    /* Tamanho reduzido */
+}
+
+.logoface {
+    max-width: 25px; /* Tamanho reduzido */
+    height: 25px;    /* Tamanho reduzido */
 }
 
 header {
@@ -106,6 +118,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        background-color: #0026ff;
     }
 
     .mobile-menu .nav-item {
@@ -116,6 +129,7 @@ header {
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
+        background-color: #0026ff;
     }
 
     .mobile-menu .login-button button {
@@ -144,23 +158,27 @@ h1 {
 }
 
 .form-container {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; /* Limita a largura do formulário */
+    margin: 2rem auto; /* Centraliza o formulário com margem superior e inferior */
     padding: 1rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+    background: #e0f7fa; /* Azul bebê */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-.form-container h2 {
+.form-container h4 {
     margin-bottom: 1rem;
     color: #4b4b4b;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o título do formulário */
 }
 
 .form-group {
     margin-bottom: 1rem;
+}
+
+.social {
+    text-decoration: none;
 }
 
 .form-group label {
@@ -171,7 +189,7 @@ h1 {
 
 .form-group input,
 .form-group textarea {
-    width: 94%;
+    width: 94%; /* Mantenha a largura consistente */
     padding: 0.75rem;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -194,4 +212,18 @@ h1 {
 
 .form-group button:hover {
     background-color: #016f8b;
+}
+.mobile-menu {
+    display: none; /* Oculta por padrão */
+    background-color: #fff; /* Cor de fundo */
+    position: absolute;
+    top: 60px; /* Ajuste conforme necessário */
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu.open {
+    display: block; /* Mostra quando ativo */
 }

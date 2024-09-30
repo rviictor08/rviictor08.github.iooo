@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #0026ff;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem;
+}
+
+.logo img {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+.center-content {
+    position: relative; /* Permite o posicionamento absoluto */
+    text-align: center; /* Centraliza o conteúdo */
+    margin: 2rem auto; /* Centraliza o conteúdo */
+    max-width: 1200px; /* Limita a largura total do site */
+}
+
+.center-content img {
+    display: block; /* Faz a imagem ser exibida como um bloco */
+    max-width: 66%; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+    border-radius: 15px; /* Adiciona borda arredondada */
+}
+
+
+.valores-missao-visao {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.biografia {
+    max-width: 300px; /* Limita a largura de cada seção */
+    text-align: center;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Remove margens */
+    padding-bottom: 50px; /* Espaço para a barra social */
+}
+
+.comentario {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0; /* Reduz a margem para colar na parte inferior */
+    text-align: center;
+}
+
+.comentario-img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    margin-right: 1rem; /* Espaço entre imagem e texto */
+}
+
+.comentario-texto p {
+    max-width: 400px; /* Limita a largura do texto do comentário */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: -3px;
+    left: -10px;
+    margin: 0;
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espaço entre os ícones sociais */
+}
+
+.social-icons img {
+    width: 30px; /* Ajuste conforme necessário */
+    height: 30px; /* Ajuste conforme necessário */
+}
+
+/* Estilo do botão "Saiba Mais" */
+.center-button {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 22px;
+    background-color: #0187a7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 3px; /* Adiciona margem superior para descer o botão */
+}
+
+.center-button a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mataya</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./../inicio/inicio.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
+                    <li class="nav-item"><a href="../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="../login/login.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../../img/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>s
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
+                <li class="nav-item"><a href="./../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="../login/login.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="form-container">
+        <h4>Acesse sua conta</h4>
+        <form>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    
+        <!-- Links para login com redes sociais -->
+        <div class="social-login">
+            <p class="social">Ou faça login com:</p>
+            <a  class="social" href="https://accounts.google.com/signin" class="social-button google">
+                <img class="logogoogle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCcL-qQAqz78GM9pvr84Xw5cyy7hr8J6HGXw&s" alt="Login com Google">
+                Google
+            </a>
+            <a class="social" href="https://www.facebook.com/login" class="social-button facebook">
+                <img class="logoface" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsFNOCwNdo843YWnxCwuSHjhoFGueNrX3Yg&s" alt="Login com Facebook">
+                Facebook
+            </a>
+        </div>
+    
+        <!-- Mensagem para cadastro -->
+        <div class="signup-message">
+            <p>Não tem uma conta? <a href="./../cadastro/cadastro.html">Cadastre-se aqui</a></p>
+        </div>
+    </div>
+    
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -8,20 +8,16 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
 }
 
-.signup-message{
-    margin-left: 270px;
+.signup-message {
+    margin: 20px;
 }
 
-.logogoogle {
-    max-width: 10px;
-    height: 10px;
-}
-.logoface {
-    max-width: 10px;
-    height: 10px;
+.logogoogle, .logoface {
+    max-width: 30px; /* Tamanho ajustado para melhor visibilidade */
+    height: auto;
 }
 
 header {
@@ -32,17 +28,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 6rem;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
+    padding: 1.5rem 6rem; /* Mantido igual ao site base */
 }
 
 .logo img {
-    height: 40px; /* Ajuste o tamanho conforme necessário */
-    width: auto; /* Mantém a proporção da imagem */
+    height: 40px; /* Altura do logo */
+    width: auto;
 }
 
 .nav-list {
@@ -52,18 +43,17 @@ header {
 
 .nav-list ul {
     display: flex;
-    justify-content: center;
     list-style: none;
 }
 
 .nav-item {
-    margin: 0 15px;
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
 }
 
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
-    color: #ffffff;
+    font-size: 1.15rem; /* Tamanho da fonte */
+    color: #fff;
     font-weight: 400;
 }
 
@@ -91,19 +81,19 @@ header {
 
 @media screen and (max-width: 730px) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1.5rem 4rem; /* Padding para dispositivos menores */
     }
 
     .nav-item {
-        display: none;
+        display: none; /* Itens do menu ocultos em mobile */
     }
 
     .login-button {
-        display: none;
+        display: none; /* Botão de login oculto em mobile */
     }
 
     .mobile-menu-icon {
-        display: block;
+        display: block; /* Ícone do menu móvel exibido */
     }
 
     .mobile-menu-icon button {
@@ -117,6 +107,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        background-color: #0026ff;
     }
 
     .mobile-menu .nav-item {
@@ -130,7 +121,7 @@ header {
     }
 
     .mobile-menu .login-button button {
-        width: 100%;
+        width: 100%; /* Botão ocupa toda a largura */
     }
 
     .open {
@@ -139,10 +130,10 @@ header {
 }
 
 .form-container {
-    max-width: 600px; /* Limita a largura do formulário */
-    margin: 2rem auto; /* Centraliza o formulário com margem superior e inferior */
+    max-width: 600px; /* Largura do formulário */
+    margin: 2rem auto; /* Centralização */
     padding: 1rem;
-    background: #e0f7fa; /* Azul bebê */
+    background: #e0f7fa; /* Cor de fundo */
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
@@ -151,14 +142,15 @@ header {
     margin-bottom: 1rem;
     color: #4b4b4b;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center; /* Centraliza o título do formulário */
+    text-align: center; /* Centralização do título */
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Espaçamento entre grupos */
 }
-.social{
-    margin-top: 20px;
+
+.social {
+    margin-top: 20px; /* Espaço para os botões sociais */
 }
 
 .form-group label {
@@ -168,7 +160,7 @@ header {
 }
 
 .form-group input {
-    width: 101%;
+    width: 100%; /* Ocupa toda a largura */
     padding: 0.75rem;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -177,14 +169,18 @@ header {
 .form-group button {
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 34px;
+    border-radius: 34px; /* Bordas arredondadas */
     background-color: #0187a7;
     color: #fff;
     font-size: 1rem;
-    margin-left: 234px;
     cursor: pointer;
 }
 
 .form-group button:hover {
-    background-color: #016f8b;
+    background-color: #016f8b; /* Cor ao passar o mouse */
+}
+
+.logogoogle, .logoface {
+    max-width: 10px; /* Tamanho ajustado para melhor visibilidade */
+    height: auto;
 }
