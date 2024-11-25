@@ -33,7 +33,7 @@
             </div>
         </nav>
         <div class="mobile-menu">
-            <ul>s
+            <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="./../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
                 <li class="nav-item"><a href="./../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
@@ -47,7 +47,8 @@
 
     <div class="form-container">
         <h4>Acesse sua conta</h4>
-        <form>
+        <!-- Formulário agora com action para o processa_formulario.php -->
+        <form method="POST" action="processa_login.php">
             <div class="form-group">
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
@@ -64,7 +65,7 @@
         <!-- Links para login com redes sociais -->
         <div class="social-login">
             <p class="social">Ou faça login com:</p>
-            <a  class="social" href="https://accounts.google.com/signin" class="social-button google">
+            <a class="social" href="https://accounts.google.com/signin" class="social-button google">
                 <img class="logogoogle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCcL-qQAqz78GM9pvr84Xw5cyy7hr8J6HGXw&s" alt="Login com Google">
                 Google
             </a>
@@ -81,7 +82,7 @@
     </div>
     
 
-    <script src="../js/script.js"></script>
+    <script src="../../js/inicio.js"></script>
 </body>
 
 </html>

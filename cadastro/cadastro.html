@@ -16,36 +16,39 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img src=".../../../img/logo.png" alt="Logo">
+                <img src="../img/logo.png" alt="Logo">
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="./../index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./../inicio/inicio.html" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
                     <li class="nav-item"><a href="../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
                 </ul>
             </div>
             <div class="login-button">
-                <button><a href="./../index.html">Entrar</a></button>
+                <button><a href="../login/login.html">Entrar</a></button>
             </div>
+
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="../img/menu_white_36dp.svg" alt="Menu"></button>
+                <button onclick="menuShow()"><img class="icon" src="../../img/menu_white_36dp.svg" alt="Menu"></button>
             </div>
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="./../index.html" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
-                <li class="nav-item"><a href="../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./../agendamento/agendamento.html" class="nav-link">Agendamento</a></li>
+                <li class="nav-item"><a href="./../localizacao/localizacao.html" class="nav-link">Sobre</a></li>
             </ul>
+
             <div class="login-button">
-                <button><a href="./../index.html">Entrar</a></button>
+                <button><a href="../login/login.html">Entrar</a></button>
             </div>
         </div>
     </header>
+
     <div class="form-container">
         <h4>Cadastre-se</h4>
-        <form>
+        <form method="post" action="processa_cadastro.php">
             <div class="form-group">
                 <label for="name">Nome</label>
                 <input type="text" id="name" name="name" required>
@@ -82,7 +85,7 @@
     
         <!-- Mensagem para login -->
         <div class="signup-message">
-            <p>Já tem uma conta? <a href="./../index.html">Faça login aqui</a></p>
+            <p>Já tem uma conta? <a href="./../login/login.html">Faça login aqui</a></p>
         </div>
     </div>
     
