@@ -8,8 +8,11 @@ Este projeto é um site estático para o "Hotel Mayata", desenvolvido como parte
 
 ## Estrutura do Projeto
 
-- **index.html**: O arquivo HTML principal que estrutura a página inicial do site.
-- **styles.css**: Arquivo CSS que estiliza o conteúdo da página, aplicando a aparência desejada.
+- -   **index.html**: O arquivo HTML principal que estrutura a página inicial do site.
+- -   **styles.css**: Arquivo CSS que estiliza o conteúdo da página, aplicando a aparência desejada.
+- -   **php**: Vincular o formulario ao banco de dados para cadastro e login.
+- -   **JavaScript**: Fazer a responsividade e comentario automatico na pagina inicio.
+- -   **Css**: Fazer a estilização das paginas.  
 
 ## Instalação
 
@@ -32,9 +35,9 @@ Para visualizar o projeto localmente, siga estas etapas:
 
 - **Página Inicial:** A página inicial apresenta informações básicas sobre o "Hotel Mayata", como descrição do hotel e serviços oferecidos.
 - **Seções:**
-  - **Home:** Introdução ao hotel e visão geral dos serviços.
-  - **Sobre Nós:** Informações sobre a equipe e a história do hotel.
-  - **Contato:** Formulário de contato e detalhes para comunicação.
+  - **INICIO:** Introdução ao hotel e visão geral dos serviços.
+  - **AGENDAMENTO:** Informações sobre a equipe e a história do hotel.
+  - **SOBRE:** Formulário de contato e detalhes para comunicação.
 
 ## Contribuição
 
@@ -54,6 +57,7 @@ Daniel Catozzi
 Otávio Cabral
 Rafael silva
 Luis felipe 
+Vinicius silva
 
 
 - Nome: Equipe Ciencia CHC
